@@ -17,7 +17,7 @@
                          <img src="./media/icons/logo.svg" alt="photo">
                        </div>
                     </div>
-                    <div class="flex items-center gap-x-6">
+                    <div class="hidden sm:flex items-center gap-x-6">
                        <div>
                         <img class="" src="./media/icons/students-and-staff-transparent.svg" alt="nav-list">
                        </div>
@@ -99,11 +99,11 @@
      </article>
     <!-- section1 -->
     <!-- search -->
-    <section class="w-[80%] m-auto flex flex-col py-10">
+    <section class="sm:w-[80%] sm:m-auto flex flex-col py-10">
         <div>
             <div class="flex gap-x-3">
-                <img src="./media/icons/search transparent.svg" alt="">
-                <span class="text-xl font-semibold text-primaryDark">Search</span>
+                <img class="hidden sm:block" src="./media/icons/search transparent.svg" alt="">
+                <span class="ml-10 sm:text-xl font-semibold text-primaryDark">Search</span>
             </div>
             
             <div class="ml-16 text-xl py-3">
@@ -119,8 +119,8 @@
     </section>
     <!-- search -->
     <!-- section-2 -->
-   <article class="grid grid-cols-4 w-[80%] m-auto gap-6">
-    <section class="col-start-1 col-end-3 relative">
+   <article class="grid grid-cols-1 sm:grid-cols-4 w-[80%] m-auto gap-6">
+    <section class="sm:col-start-1 sm:col-end-3 relative">
         <img src="./media/images/pop-kat-double-crop-960.jpeg" alt="">
         <div class="bg-white absolute right-3 bottom-3 w-[50%] p-5 space-y-3">
             <div class="">
@@ -193,12 +193,12 @@
    </article>
     <!-- section-2 -->
     <!-- section - 3 -->
-    <article class="grid grid-cols-2 p-16 container mx-auto gap-x-4">
-        <div>
-          <h1 class="text-3xl font-bold text-center p-2">News</h1>
-         <div class="grid grid-cols-2 gap-4">
+    <article class="grid grid-cols-1 sm:grid-cols-2 sm:p-16 sm:container sm:mx-auto gap-x-4">
+        <div class="p-4">
+          <h1 class="text-3xl font-bold text-center p-2 py-5">News</h1>
+         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-                <img class="h-48 w-full" src="./media/images/IFUpic.jpg" alt="">
+                <img class="sm:h-48 w-full" src="./media/images/IFUpic.jpg" alt="">
                 <div class="p-2 text-center">
                     <h1 class="font-medium text-blue-500">Expert team in major Creative Industries Project</h1>
                     <p class="font-bold text-primaryDark opacity-70">14 Jun 2023</p>
@@ -213,9 +213,9 @@
               </div>
          </div>
         </div>
-        <div>
-            <h1 class="text-3xl font-bold text-center p-2">Events</h1>
-           <div class="grid grid-cols-2 gap-4">
+        <div class="p-4">
+            <h1 class="text-3xl font-bold text-center p-2 py-5">Events</h1>
+           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                   <img class="" src="./media/images/image.jpeg" alt="">
                   <div class="p-2 text-center">
@@ -241,9 +241,9 @@
     <!-- footer -->
     <footer class="bg-primaryDark text-white">
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 gap-60 lg:grid-cols-2">
+          <div class="grid grid-cols-1 gap-1 sm:grid-cols-2">
      
-            <div class="grid grid-cols-1 gap-5 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-5">
+            <div class="grid grid-cols-2 sm:gap-5 sm:col-span-2 sm:grid-cols-5">
               <div>
                 <nav class="flex flex-col space-y-2 text-sm text-white font-bold">
                   <a class="" href> About us </a>
@@ -260,13 +260,13 @@
                   <a class="" href> Slavery and human trafficking statement </a>
                 </nav>
               </div>
-              <div class="col-start-4">
+              <div class="row-start-2 sm:col-start-4 sm:row-start-1">
                 <nav class="space-y-2 text-sm text-white font-bold flex flex-col">
                     <span class="bg-white opacity-50 h-[3px] w-[25px]"></span>
                   <a class="opacity-70" href> Admin login</a>
                 </nav>
               </div>
-              <div class="col-start-5 flex flex-col justify-between">
+              <div class="row-start-3 sm:row-start-1 sm:col-start-5 flex sm:flex-col justify-between">
                 <div class="flex space-x-6 text-gray-600">
                   <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
                     <span class="sr-only"> Facebook </span>
